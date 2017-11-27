@@ -1,0 +1,60 @@
+body {
+    font-family: "Helvetica";
+   }
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    position: relative;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%; 
+}
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    position:fixed; 
+    width:100%;
+    bottom: 10px;
+}
+
+.container {
+
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    opacity:0.8;
+
+}
+.parallax { 
+
+    background-image: url("1.jpg");
+
+
+    /* Set a specific height */
+    height: 1000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.article { position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    margin: auto;
+
+} 
