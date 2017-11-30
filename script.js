@@ -21,9 +21,9 @@
     {
       question: "What percent of students suffer from stress or anxiety? (UniHealth, 2017)",
       answers: {
-        a: "62",
-        b: "72",
-        c: "82"
+        a: "62%",
+        b: "72%",
+        c: "82%"
       },
       correctAnswer: "c"
     }
