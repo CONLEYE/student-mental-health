@@ -10,7 +10,7 @@
       correctAnswer: "c"
     },
     {
-      question: "How many students siad that they feel levels of fear that interefere with their daily lives? (YouGov, 2017)",
+      question: "How many students said that they feel levels of fear that interefere with their daily lives? (YouGov, 2017)",
       answers: {
         a: "Five in Ten",
         b: "Six in Ten",
