@@ -1,32 +1,31 @@
 (function() {
   const myQuestions = [
     {
-      question: "My biggest worry is...",
+      question: "What percent of students said they had a fear of failure? (YouGov, 2017)",
       answers: {
-        a: "How other people percieve me",
-        b: "My past mistakes",
-        c: "The future"
+        a: "35%",
+        b: "52%",
+        c: "77%"
       },
       correctAnswer: "c"
     },
     {
-      question: "When I make a mistake...?",
+      question: "How many students siad that they feel levels of fear that interefere with their daily lives? (YouGov, 2017)",
       answers: {
-        a: "I am quick to deflect blame onto others",
-        b: "I am always making mistakes",
-        c: "I worry about the long term impact of the mistake"
+        a: "Five in Ten",
+        b: "Six in Ten",
+        c: "Seven in Ten"
       },
-      correctAnswer: "c"
+      correctAnswer: "b"
     },
     {
-      question: "Where is Waldo really?",
+      question: "What percent of students suffer from stress or anxiety? (UniHealth, 2017)",
       answers: {
-        a: "Antarctica",
-        b: "Exploring the Pacific Ocean",
-        c: "Sitting in a tree",
-        d: "Minding his own business, so stop asking"
+        a: "62",
+        b: "72",
+        c: "82"
       },
-      correctAnswer: "d"
+      correctAnswer: "c"
     }
   ];
 
@@ -128,7 +127,7 @@
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
 
-  // display quiz right away
+  // display quiz immediatly
   buildQuiz();
 
   const previousButton = document.getElementById("previous");
@@ -138,7 +137,7 @@
 
   showSlide(0);
 
-  // on submit, show results
+  // when a user submits show the results
   submitButton.addEventListener("click", showResults);
   previousButton.addEventListener("click", showPreviousSlide);
   nextButton.addEventListener("click", showNextSlide);
