@@ -32,7 +32,7 @@ body {
     text-align: center;
     background-color: white;
     opacity:0.8;
-    margin-top: 30px;
+    margin-top: 30px ;
 
 }
 
@@ -47,7 +47,7 @@ margin-top: 750px;
 
 .parallax { 
 
-    background-image: url("1.jpg");
+    background-image: url("rollercoaster.jpg");
 
 
     /* Set a specific height */
