@@ -1,4 +1,4 @@
-(function() {
+window.onload = function( {
   const myQuestions = [
    {
       question: "What percent of students said they had a fear of failure? (YouGov, 2017)",
