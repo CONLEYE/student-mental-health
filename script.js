@@ -130,7 +130,7 @@ window.onload = function( {
   const submitButton = document.getElementById("submit");
 
   // display quiz right away
-  buildQuiz();
+  buildQuiz(n);
 
   const previousButton = document.getElementById("previous");
   const nextButton = document.getElementById("next");
