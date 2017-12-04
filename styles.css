@@ -211,7 +211,6 @@ text-align: center;}
 
 
 .p1 {font-size: 30px;
-<<<<<<< HEAD
 color: black;
 margin-top: 20px;}
 
@@ -237,8 +236,7 @@ float:left;
 }
 
 
-=======
-color: black;}
+
 
 input[type=text], select, textarea {
     width: 100%;
@@ -269,5 +267,5 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
->>>>>>> f654a94ad1554d7b88c991e156437508575df7c6
+
 
