@@ -64,6 +64,7 @@ margin-top: 750px;
     left: 0;
     width: 100%;
     text-align: center;
+    font-size: 18px;
     margin: auto;
 
 } 
@@ -136,70 +137,4 @@ a:hover {
 
 .logo{font-size: 50px;
 color: grey;
-<<<<<<< HEAD
 }
-=======
-}
-
-.column1 {
-  position: absolute;
-  margin-top: 1250px;
-    float: left;
-    width: 30%;
-    background-color: grey;
-    opacity: 0.9;
-    padding: 10px;
-    height: 500px;
-    margin-left: 1%;
-}
-
-.column2 {
-  position: absolute;
-  margin-top: 1250px;
-  margin-left: 34%;
-    float: left;
-    width: 30%;
-    background-color: grey;
-    opacity: 0.9;
-    padding:10px;
-    height: 500px;
-}
-
-.column3 {
-  position: absolute;
-  margin-top: 1250px;
-  margin-left: 67%;
-    float: left;
-    width: 30%;
-    background-color: grey;
-    opacity: 0.9;
-    padding:10px;
-    height: 500px;
-}
-
-h2 {font-size: 40px;
-color:white;
-text-align: center;
-margin: 20px;
-}
-
-.container3 { position: absolute;
-  margin-top: 1800px;
-  background-color: white;
-  width: 100%;
-  padding: 10px;
-  margin left:1%;
-  text-align: center;
-  font-size: 20px;
- }
-
-h1 {margin-bottom: 10px;}
-
-p {
-color:black;
-margin-top: 10px;
-margin-bottom: 10px;}
-
-.p1 {font-size: 30px;
-color: black;}
->>>>>>> 560fa3515488d1c8b9deeee2e488f82ab9dc5688
