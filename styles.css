@@ -217,7 +217,7 @@ margin-top: 20px;}
 
 .row1 {
   position: absolute;
-  margin-top: 2000px;
+  margin-top: 2400px;
     float: left;
     width: 98%;
     background-color: lightgrey;
@@ -229,12 +229,12 @@ margin-top: 20px;}
 
 .row2 {
   position: absolute;
-  margin-top: 2500px;
+  margin-top: 2000px;
     float: left;
     width: 98%;
     background-color: lightgrey;
     padding:10px;
-    height: 230px;
+    height: 300px;
     text-align: left;
 }
 
@@ -272,3 +272,4 @@ input[type=submit]:hover {
     padding: 20px;
 }
 >>>>>>> f654a94ad1554d7b88c991e156437508575df7c6
+
