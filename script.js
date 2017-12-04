@@ -1,11 +1,13 @@
-window.onload = function( {
+setTimeout(function () {
+   (function() {
+
   const myQuestions = [
-   {
+    {
       question: "What percent of students said they had a fear of failure? (YouGov, 2017)",
       answers: {
-        a: "35%",
-        b: "52%",
-        c: "77%"
+        a: "35",
+        b: "52",
+        c: "77"
       },
       correctAnswer: "c"
     },
@@ -21,9 +23,9 @@ window.onload = function( {
     {
       question: "What percent of students suffer from stress or anxiety? (UniHealth, 2017)",
       answers: {
-        a: "62%",
-        b: "72%",
-        c: "82%"
+        a: "62",
+        b: "72",
+        c: "82",
       },
       correctAnswer: "c"
     }
@@ -43,8 +45,7 @@ window.onload = function( {
         // ...add an HTML radio button
         answers.push(
           `<label>
-             <input type="radio" 
-             name="question${questionNumber}" value="${letter}">
+             <input type="radio" name="question${questionNumber}" value="${letter}">
               ${letter} :
               ${currentQuestion.answers[letter]}
            </label>`
@@ -76,8 +77,7 @@ window.onload = function( {
       // find selected answer
       const answerContainer = answerContainers[questionNumber];
       const selector = `input[name=question${questionNumber}]:checked`;
-      const userAnswer = (answerContainer.querySelector(selector) || 
-        {}).value;
+      const userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
       // if answer is correct
       if (userAnswer === currentQuestion.correctAnswer) {
@@ -130,7 +130,7 @@ window.onload = function( {
   const submitButton = document.getElementById("submit");
 
   // display quiz right away
-  buildQuiz(n);
+  buildQuiz();
 
   const previousButton = document.getElementById("previous");
   const nextButton = document.getElementById("next");
@@ -144,3 +144,4 @@ window.onload = function( {
   previousButton.addEventListener("click", showPreviousSlide);
   nextButton.addEventListener("click", showNextSlide);
 })();
+}, 1500)
