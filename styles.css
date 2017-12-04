@@ -219,19 +219,19 @@ margin-top: 20px;}
   position: absolute;
   margin-top: 2000px;
     float: left;
-    width: 100%;
+    width: 98%;
     background-color: lightgrey;
     padding:10px;
-    height: 200px;
+    height: 390px;
     text-align: left;
 
 }
 
 .row2 {
   position: absolute;
-  margin-top: 2250px;
+  margin-top: 2500px;
     float: left;
-    width: 100%;
+    width: 98%;
     background-color: lightgrey;
     padding:10px;
     height: 230px;
