@@ -156,7 +156,7 @@ color: grey;
     background-color: grey;
     opacity: 0.95;
     padding: 10px;
-    height: 500px;
+    height: 550px;
     margin-left: 1%;
 }
 
@@ -169,7 +169,7 @@ color: grey;
     background-color: grey;
     opacity: 0.95;
     padding:10px;
-    height: 500px;
+    height: 550px;
 }
 
 .column3 {
@@ -181,7 +181,7 @@ color: grey;
     background-color: grey;
     opacity: 0.95;
     padding:10px;
-    height: 500px;
+    height: 550px;
 }
 
 h2 {font-size: px;
@@ -190,7 +190,7 @@ text-align: center;
 margin: 20px;}
 
 .container3 { position: absolute;
-  margin-top: 1800px;
+  margin-top: 1900px;
   background-color: white;
   width: 100%;
   padding: 10px;
@@ -215,7 +215,7 @@ margin-top: 20px;}
 
 .row1 {
   position: absolute;
-  margin-top: 1900px;
+  margin-top: 2000px;
     float: left;
     width: 100%;
     background-color: lightgrey;
@@ -227,7 +227,7 @@ margin-top: 20px;}
 
 .row2 {
   position: absolute;
-  margin-top: 2150px;
+  margin-top: 2250px;
     float: left;
     width: 100%;
     background-color: lightgrey;
