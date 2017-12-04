@@ -217,25 +217,23 @@ margin-top: 20px;}
 
 .row1 {
   position: absolute;
-  margin-top: 2000px;
-    float: left;
-    width: 100%;
-    background-color: lightgrey;
-    padding:10px;
-    height: 200px;
-    text-align: left;
+  margin-top: 2400px;
+  width: 98%;
+  background-color: lightgrey;
+  padding:10px;
+  height: 390px;
+  float:left;
 
 }
 
 .row2 {
   position: absolute;
-  margin-top: 2250px;
-    float: left;
-    width: 100%;
+  margin-top: 2000px;
+    width: 98%;
     background-color: lightgrey;
     padding:10px;
-    height: 230px;
-    text-align: left;
+    height: 300px;
+float:left;
 }
 
 
@@ -272,3 +270,4 @@ input[type=submit]:hover {
     padding: 20px;
 }
 >>>>>>> f654a94ad1554d7b88c991e156437508575df7c6
+
