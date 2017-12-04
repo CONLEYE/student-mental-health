@@ -1,4 +1,4 @@
-(function() {
+window.onload = function( {
   const myQuestions = [
    {
       question: "What percent of students said they had a fear of failure? (YouGov, 2017)",
@@ -130,7 +130,7 @@
   const submitButton = document.getElementById("submit");
 
   // display quiz right away
-  buildQuiz();
+  buildQuiz(n);
 
   const previousButton = document.getElementById("previous");
   const nextButton = document.getElementById("next");
