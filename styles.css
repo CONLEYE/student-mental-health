@@ -218,24 +218,22 @@ margin-top: 20px;}
 .row1 {
   position: absolute;
   margin-top: 2400px;
-    float: left;
-    width: 98%;
-    background-color: lightgrey;
-    padding:10px;
-    height: 390px;
-    text-align: left;
+  width: 98%;
+  background-color: lightgrey;
+  padding:10px;
+  height: 390px;
+  float:left;
 
 }
 
 .row2 {
   position: absolute;
   margin-top: 2000px;
-    float: left;
     width: 98%;
     background-color: lightgrey;
     padding:10px;
     height: 300px;
-    text-align: left;
+float:left;
 }
 
 
