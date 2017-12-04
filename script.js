@@ -23,7 +23,7 @@
       answers: {
         a: "62%",
         b: "72%",
-        c: "82%",
+        c: "82%"
       },
       correctAnswer: "c"
     }
@@ -42,8 +42,9 @@
       for (letter in currentQuestion.answers) {
         // ...add an HTML radio button
         answers.push(
-          <label>
-             <input type="radio" name="question${questionNumber}" value="${letter}">
+          `<label>
+             <input type="radio" 
+             name="question${questionNumber}" value="${letter}">
               ${letter} :
               ${currentQuestion.answers[letter]}
            </label>`
@@ -75,7 +76,8 @@
       // find selected answer
       const answerContainer = answerContainers[questionNumber];
       const selector = `input[name=question${questionNumber}]:checked`;
-      const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+      const userAnswer = (answerContainer.querySelector(selector) || 
+        {}).value;
 
       // if answer is correct
       if (userAnswer === currentQuestion.correctAnswer) {
